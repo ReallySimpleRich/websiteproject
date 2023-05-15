@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>SimpleCars</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="header-title">SimpleCars</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="bookingform.html">Booking</a>
+            <a href="about.html">About us</a>
+            <a href="dist/canvas.html">Extras</a>
+        </nav>
+    </header>
+    <main>
+        
+            <div class="jumbotron">
+                <div>
+                    <h1>SimpleCars</h1>
+                    <h3>
+                        “Everything in life is somewhere else, and you get there in a car.” ~  B. White
+                    </h3>
+                    <p> Website created by : SimpleCars </p>
+                </div>
+                <div>
+                    <img src="images/lambo.png" alt="lambo">
+                </div>
+            </div>
+            <div class="main-container">
+                <div style="width: 1000px; height: 800px; overflow: auto">
+                <div class="package-container">
+                    <!-- 1st package content-->
+                    <img src="images/suv.jpg" alt="suv">
+                    <h3>SUV | Rent For a Day</h3>
+                    <p>Rent a SUV for a day</p>
+                    <h4>USD 1,500</h4>
+                    <!--add button here-->
+                    <button class="left">Book Now</button>
+                </div>
+                <div class="package-container">
+                    <!-- 2nd package content-->
+                    <img src="images/mustang.jpg" alt="mustang">
+                    <h3>Sports Cars | Rent For a Day</h3>
+                    <p>Cruise in a sports car for a day</p>
+                    <h4>USD 3,500</h4>
+                    <!--add button here-->
+                    <button class="left">Book Now</button>
+                </div>
+                <div class="package-container">
+                    <!-- 3rd package content-->
+                    <img src="images/mclaren.jpg" alt="mclaren">
+                    <h3>Super Cars | Rent For a Day</h3>
+                    <p>Drive in a super car for a day</p>
+                    <h4>USD 6,000</h4>
+                    <!--add button here-->
+                    <button class="left">Book Now</button>
+                </div>
+                <div class="package-container">
+                    <!-- 3rd package content-->
+                    <img src="images/vintage.jpg" alt="vintage">
+                    <h3>Vintage Cars | Rent For a Day</h3>
+                    <p>Experience the yesteryear for a day</p>
+                    <h4>USD 10,000</h4>
+                    <!--add button here-->
+                    <button class="left">Book Now</button>
+                </div>
+                <div class="package-container">
+                    <!-- 3rd package content-->
+                    <img src="images/hyper.png" alt="hyper">
+                    <h3>Super Cars | Rent For a Day</h3>
+                    <p>Feel the power and performance with no limit for a day</p>
+                    <h4>USD 15,000</h4>
+                    <!--add button here-->
+                    <button class="left">Book Now</button>
+                </div>
+                  </div>
+            </div>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/31kplxJn6nw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div class="square"></div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/krCB06jxp2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <h1 class="title">Tours Details</h1>
+            <div class="table">
+                <table>
+                    <tr>
+                        <!--Table heading-->
+                        <th>Package</th>
+                        <th>Description</th>
+                        <th>Car options</th>
+                        <th>Price</th>
+                        <th>Booking</th>
+                    </tr>
+                    <tr>
+                        <!--Table data 1-->
+                        <td><img src="images/suv.jpg" alt=""></td>
+                        <td>SUV | Rent For a Day</td>
+                        <td>Honda CR-V, Toyota Rav4, Jeep Grand Cherokee, Ford Explorer, Ford escape, Chevrolet Tahoe</td>
+                        <td>USD 1,500</td>
+                        <td><button onclick="goToBooking()" type="button">Book Now</button></td>
+                    </tr>
+                    <tr>
+                        <!--Table data 2-->
+                        <td><img src="images/mustang.jpg" alt=""></td>
+                        <td>Sports Cars | Rent For a Day</td>
+                        <td>Porsche 911, BMW M8, Mazda MX-5, BMW M2, Chevrolet Camaro, Ford Mustang</td>
+                        <td>USD 3,500</td>
+                        <td><button onclick="goToBooking()" type="button">Book Now</button></td>
+                    </tr>
+                    <tr>
+                        <!--Table data 3-->
+                        <td><img src="images/mclaren.jpg" alt=""></td>
+                        <td>Super Cars | Rent For a Day</td>
+                        <td>Lamborghini Huracan, Ferari 430, Mclaren 720S, Nissan GTR, Audi R8, Alphine a110</td>
+                        <td>USD 6,000</td>
+                        <td><button onclick="goToBooking()" type="button">Book Now</button></td>
+                    </tr>
+                    <tr>
+                        <!--Table data 4-->
+                        <td><img src="images/vintage.jpg" alt=""></td>
+                        <td>Vintage cars | Rent For a Day</td>
+                        <td>Ford Mustang, Chevrolet Camaro, Dodge charger, Dodge Challenger, Pontiac Firebird, Jaguar E-type</td>
+                        <td>USD 10,000</td>
+                        <td><button onclick="goToBooking()" type="button">Book Now</button></td>
+                    </tr>
+                    <tr>
+                        <!--Table data 5-->
+                        <td><img src="images/hyper.png" alt=""></td>
+                        <td>Hyper Cars | Rent For a Day</td>
+                        <td>Bugatti Chiron, Mclaren P1, Porsche Carrera GT, Buggati veyron, Porsche 918, Mclaren Senna</td>
+                        <td>USD 15,000</td>
+                        <td><button onclick="goToBooking()" type="button">Book Now</button></td>
+                    </tr>
+                </table>
+            </div>
+    </main>
+    <footer>
+        <h4>SimpleCars</h4>
+        <p>Copyright &copy 2022 Designed by SimpleCars</p>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
