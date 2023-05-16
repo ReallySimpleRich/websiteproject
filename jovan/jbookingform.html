@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indonesia Travel Booking</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1 class="header-title">Time Tours</h1>
+        <nav>
+        <a href="index.html">Home</a>
+        <a href="bookingform.html">Booking</a>
+        <a href="about.html">About us</a>
+        </nav>
+    </header>
+    <main class="formcontainer">
+        <h1 class="title"> Tour Reservations Form</h1>
+        <img src="images/booking.png" alt="">
+        <form> 
+            <label>Tour Package</label>
+            <select name="package" id="package">
+            <option value="pack1">Borobudur Tours | $2500</option>
+            <option value="pack2">Bali Tour | $7000</option>
+            <option value="pack3">Raja Ampat | $4000</option>
+            <option value="pack4">Jakarta Tours | $5000</option>
+            <option value="pack5">Hidden Trails |$6500</option> </select>
+            
+            <label>Full name</label>
+            <input type="text">
+            <label>Email</label>
+            <input type="email" >
+            <label>Phone Number</label>
+            <input type="number" >
+            <label>Pick a Date</label>
+            <input type="date" >
+            <label>How many person?</label>
+            <input id="num-of-people" type="number"> 
+        </form>
+        <h3>Total Payment : $ <span id ="total"> </span></h3>
+        <button onclick="process()">Process Booking</button>
+    </main>
+    <footer>
+        <h4>Time Tours</h4>
+        <p>Copyright &copy 2022 Designed by Timedoor Academy </p>
+    </footer>
+<script src="script.js"> </script>
+</body>
+</html>

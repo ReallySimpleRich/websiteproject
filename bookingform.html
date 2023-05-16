@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimpleCars Booking</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="header-title">SimpleCars</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="bookingform.html">Booking</a>
+            <a href="about.html">About us</a>
+            <a href="canvas.html">Fidget</a>
+            <a href="grid.html">Relax</a>
+            <a href="clock.html">Time</a>
+        </nav>
+    </header>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <h2>Square CSS</h2>
+    <div class="square"></div>
+    <main class="formcontainer">
+        <h1 class="title">Choose Your Package</h1>
+        <img src="images/booking.png" alt="">
+        
+        <form>
+            <label>Tour Package</label>
+            <select name="package" id="package">
+                <option value="pack1">SUV | $1500</option>
+                <option value="pack2">Sports Cars | $3500</option>
+                <option value="pack3">Super Cars | $6000</option>
+                <option value="pack4">Vintage Cars | $1000</option>
+                <option value="pack5">Hyper cars | $15000</option>
+            </select>
+            <label>Full name</label>
+            <input type="text">
+            <label>Email</label>
+            <input type="email">
+            <label>Phone number</label>
+            <input type="number">
+            <label>Pick a Date</label>
+            <input type="date">
+            <label>How many days</label>
+            <input id="num-of-people" type="number">
+            <h3>Total Payment : $<span id="total"></span></h3>
+            <button onclick="process()">Process Booking</button>
+        </form>
+    </main>
+    <footer>
+        <h4>SimpleCars</h4>
+        <p>Copyright &copy 2022 Designed by SimpleCars</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
