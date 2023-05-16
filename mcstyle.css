@@ -39,8 +39,45 @@ body, html {
 .digit__svg {
   width: 100%;
   height: auto;
-  stroke: #e88565;
+  stroke: #D25380;
   stroke-width: 1px;
   fill: none;
   display: block;
+}
+
+
+
+header{
+  background-color: #D25380;
+  color: white;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 50px;
+  display: flex;
+}
+
+.header-title{
+  text-align: left;
+  color:white;
+  margin: 14px;
+  font-size: 18px;
+}
+
+nav{
+  position: absolute;
+  right: 0;
+  display: flex;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  float: left;
+  padding: 15px;
+}
+
+a:hover{
+  color: black;
 }
